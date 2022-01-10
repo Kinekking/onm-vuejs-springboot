@@ -47,6 +47,7 @@ export default {
         date_yn: true,
         telno:'',
         guid:'',
+        said:'',
         is_masking:'',
       }
     }
@@ -154,6 +155,14 @@ export default {
         this.searchParam.guid!==""
       ){
         newParams.guid=this.searchParam.guid
+      }
+      if(params.said !== undefined && params.said !== ''){
+        newParams.said = params.said
+      }else if(
+        this.searchParam.said!==undefined&&
+        this.searchParam.said!==""
+      ){
+        newParams.said=this.searchParam.said
       }
 
       if(params.telno !== undefined && params.telno !== ''){
