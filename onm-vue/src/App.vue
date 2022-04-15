@@ -18,7 +18,7 @@
           <app-footer></app-footer>
         </div>
       </div>
-    </div> asd
+    </div>
   </div> -->
   <v-app>
     <!-- <app-topMenu></app-topMenu> -->
